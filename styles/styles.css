@@ -69,6 +69,11 @@ body{
 .menu_link{
     cursor: pointer;
     padding: var(--text-small);
+    transition: all 1s;
+    }
+    
+.menu__link:active{
+    color: #FFFDE3;
     }
 
 /*Fin de header*/   
@@ -279,6 +284,8 @@ form textarea{
         font-size: 90%;
     }
 
+
+
     .presentacion__title{
         font-size: 70px;
         padding: 2px;
@@ -359,6 +366,18 @@ form textarea{
     .menu__item{
         font-size: 130%;
     }    
+
+    .menu_link{
+        border: 3px solid #C21010;
+        transition: all 2s;
+
+        }
+    .menu__link:hover{
+        color: #FFFDE3;
+        border: 3px solid #FFFDE3;
+        padding: 6%;
+        }
+
     .header__logo{
         max-width: 20%;
         }
@@ -371,6 +390,7 @@ form textarea{
         margin-bottom: 2%;
         padding: 4%;
     }
+
     .conocenos__subtitle{
         font-size: 30px;
         padding: 0%
