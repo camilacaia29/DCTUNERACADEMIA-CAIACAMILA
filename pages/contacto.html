@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../images/weblogo.png">
+    <title>Contacto / DC TUNER</title>
+</head>
+<body class="body">
+    <header class="header">
+        <img class="header__logo" src="../images/logodctuner.png" alt="Logo de la pagina">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="menu__item"> <a class="menu__link" href="../index.html">Inicio</a></li>
+                <li class="menu__item"> <a class="menu__link" href="conocenos.html">Conócenos</a></li>
+                <li class="menu__item"> <a class="menu__link" href="nuestroscursos.html">Nuestros Cursos</a></li>
+                <li class="menu__item"> <a class="menu__link" href="galeria.html">Galeria</a></li>
+                <li class="menu__item"> <a class="menu__link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+        
+                <legend> <h2>¿Tenes preguntas? ¡Contáctanos!</h2></legend>
+                <label for="nombre">Nombre completo.</label>
+                
+                <input id=nombrecompleto type="text">
+               
+                <label for="telefono">Número de telefono. </label>
+                
+                <input id=telefono type="number">
+                
+                <label for="email">Correo electronico. </label>
+                
+                <input id=email type="email">
+                
+                <label class="mensaje" for="Mensaje"> Su mensaje. </label>
+                
+                <textarea name="mensaje" id="comentarios" cols="30" rows="10"></textarea>
+                
+                <label class="checkbox">Deseo recibir informacion por mail.</label>
+                <input class="checkbox" type="checkbox" checked>
+                <input type="submit" class="boton" value="Enviar mensaje.">
+
+        </form>
+        <hr>
+    </main>
+        <!-- Incio del footer con links a redes sociales -->
+        <footer class="footer">
+            <h3 class="footer__title">¡Únete a nuestras redes sociales!</h3>
+        <div class="footer__contenedor">
+            <a class="footer__links" href="https://es-la.facebook.com/DCInyeccionesProgramables/" target="_blank">
+                <img class="footer__img" src="../images/facebook.PNG" alt="Facebook"> </a> 
+            <a class="footer__links" href="https://www.instagram.com/damiancaia/?hl=es-la" target="_blank">
+                <img class="footer__img" src="../images/instagram.PNG" alt="Instagram">
+            </a> 
+            <a class="footer__links" href="https://www.youtube.com/channel/UCPaHeXwV1i5NqZuoEGZrlFw?app=desktop" target="_blank">
+                <img class="footer__img" src="../images/youtube.png" alt="youtube">
+            </a>
+        </div> 
+           <p class="footer__copyright">© 2022 DCTUNER, todos los derechos reservados.</p>
+    </footer>
+        
+</body>
+</html>
