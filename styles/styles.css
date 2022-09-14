@@ -357,9 +357,11 @@ form textarea{
         height: 100%;
         width: 100%;
         border-radius: 5px;
-    }
+    }    
 
-    
+   .galeria__fotos:hover{
+    filter: opacity(0.7);
+   }
 }
 
 @media(min-width:728px){
