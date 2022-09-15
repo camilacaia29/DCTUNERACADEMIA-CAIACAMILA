@@ -21,41 +21,58 @@
             </ul>
         </nav>
     </header>
-    <main class="inscripcion">
+    <main>
         <h1> ¡Estás a un paso de completar tu inscripción! </h1>
         <h3> Completa el formulario y nos pondremos en contacto para finalizar el proceso. </h3>
-        <form>
-            <fieldset>
-                <legend> <h2>Formulario de inscripción.</h2></legend>
-                <label for="nombre">Nombre completo.</label>
-                <br>
-                <input id=nombrecompleto type="text">
-                <br>
-                <label for="telefono">Número de telefono. </label>
-                <br>
-                <input id=telefono type="number">
-                <br>
-                <label for="email"> Correo electronico. </label>
-                <br>
-                <input id=email type="email">
-                <br>
-                <label for="pais">Escoge el curso de tu interes.</label>
-                <br>
-                <select>
-                    <option>Curso ONDEMAND</option>
-                    <option>Curso PRESENCIAL BUENOS AIRES </option>
-                    <option>Curso PRESENCIAL CHILE</option>
-                    <option>Curso DIGITAL CLASES EN VIVO</option>
-                </select>
-                <br>
-                <input type="submit" class="boton" value="Aceptar">
 
-
-            </fieldset>
-
-        </form>
-        <hr>
+    <form>
+        <div class="row mb-3">
+            <label for="inputName3" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputAdress7" class="col-sm-2 col-form-label">Apellido</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputAdress7">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPhone7" class="col-sm-2 col-form-label">Telefono celular.</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="inputPhone7">
+            </div>
+          </div>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        
+        <div>
+            <label for="pais" class="col-sm-2 col-form-label">Escoge el curso de tu interes.</label>
+            <br>
+            <select>
+                <option>Curso ONDEMAND</option>
+                <option>Curso PRESENCIAL BUENOS AIRES </option>
+                <option>Curso PRESENCIAL CHILE</option>
+                <option>Curso DIGITAL CLASES EN VIVO</option>
+            </select>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+            <label class="form-check-label" for="gridCheck1"> Deseo suscribirme. </label>
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+             </div>
+          </div>
+        </div>
+        <input type="submit" class="boton" value="Aceptar">
+      </form>
     </main>
+
         <!-- Incio del footer con links a redes sociales -->
         <footer class="footer">
             <h3 class="footer__title">¡Únete a nuestras redes sociales!</h3>
