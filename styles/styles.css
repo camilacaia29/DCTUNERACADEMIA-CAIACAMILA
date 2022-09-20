@@ -231,9 +231,18 @@ body{
 
 /*Diseño pagina Nuestros Cursos*/
 
+.container__nuestrosCursos h1{
+    padding: 2%;
+    font-size: 270%;
+}
+
+#containerCarousel{
+    height: 100%;
+    width: 100%;
+}
 /*Diseño pagina Galeria*/ 
 
-.container__title{
+.container__ti4le{
     font-size: 50px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -465,4 +474,7 @@ form textarea{
         padding-bottom: 4%;
     }
 
+    .container__nuestrosCursos{
+        font-size: 150%;
+    }
 }
