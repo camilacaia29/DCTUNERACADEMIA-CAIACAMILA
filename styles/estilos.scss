@@ -1,64 +1,7 @@
 @import "variables";
 @import "generales";
-/*Header*/
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--spacing-small);
-    background-color: var(--secundario);
-    }
-
-.header__logo{
-    max-width: 30%;
-    padding: 0%;
-    }
-
-.header__menu{
-        display: flex;
-        gap: 10px;
-    }    
-
-.menu__item{
-    font-size: 60%;
-}    
-
-.menu_link{
-    cursor: pointer;
-    padding: var(--text-small);
-    transition: all 1s;
-    }
-    
-.menu__link:active{
-    color: #FFFDE3;
-    }
-
-/*Fin de header*/   
-
-/*footer*/
-.footer{
-    background-color: var(--primario);
-    color: var(--detalles);
-    padding: 30px;
-}    
-
-.footer__title{
-    font-size: 150%;
-    text-align: center;
-    
-}
-
-.footer__contenedor{
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__copyright{
-    font-size: 10px;
-    text-align: center;
-}
-
-/*Fin de footer*/ 
+@import "header";
+@import"footer";
 
 /*Diseño index*/ 
 
@@ -258,15 +201,7 @@ form textarea{
 /*MEDIA*/
 
 @media(min-width:520px){
-
-/*Diseño pagina index*/
-    .menu__item{
-        font-size: 90%;
-    }
-
-
-
-    .presentacion__title{
+.presentacion__title{
         font-size: 70px;
         padding: 2px;
         margin: 2px;
@@ -369,30 +304,7 @@ form textarea{
 }
 
 @media(min-width:728px){
-    .menu__item{
-        font-size: 130%;
-    }    
-
-    .menu_link{
-        border: 3px solid #C21010;
-        transition: all 2s;
-
-        }
-    .menu__link:hover{
-        color: #FFFDE3;
-        border: 3px solid #FFFDE3;
-        padding: 6%;
-        }
-
-    .header__logo{
-        max-width: 20%;
-        }
-    
-    .header__menu{
-        gap: var(--spacing-medium);
-    }
-    
-    .conocenos__title{
+.conocenos__title{
         margin-bottom: 2%;
         padding: 4%;
     }

@@ -1,0 +1,21 @@
+.footer{
+    background-color: var(--primario);
+    color: var(--detalles);
+    padding: 30px;
+}    
+
+.footer__title{
+    font-size: 150%;
+    text-align: center;
+    
+}
+
+.footer__contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright{
+    font-size: 10px;
+    text-align: center;
+}
