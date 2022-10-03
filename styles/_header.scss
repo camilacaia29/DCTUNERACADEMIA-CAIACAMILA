@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--spacing-small);
-    background-color: var(--secundario);
+    padding: map-get($espaciado, spacingSmall);
+    background-color: map-get($colores, colorSecundario);
     }
 
 .header__logo{
@@ -23,12 +23,12 @@
 
 .menu_link{
     cursor: pointer;
-    padding: var(--text-small);
+    padding: map-get($espaciado, spacingSmall);
     transition: all 1s;
     }
     
 .menu__link:active{
-    color: #FFFDE3;
+    color: map-get($colores, colorFondo);
     }
     
 
@@ -46,13 +46,13 @@
     }    
 
     .menu_link{
-        border: 3px solid #C21010;
+        border: 3px solid map-get($colores, colorSecundario);
         transition: all 2s;
 
         }
     .menu__link:hover{
-        color: #FFFDE3;
-        border: 3px solid #FFFDE3;
+        color: map-get($colores, colorFondo);
+        border: 3px solid map-get($colores, colorFondo);
         padding: 6%;
         }
 
@@ -61,7 +61,7 @@
         }
     
     .header__menu{
-        gap: var(--spacing-medium);
+        gap: map-get($espaciado, spacingMedium);
     }
     
 }

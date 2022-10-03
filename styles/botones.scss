@@ -1,0 +1,16 @@
+.botonUno {
+    @extend %botonDefault;
+    color: map-get($colores, colorPrimario);
+    background-color: map-get($colores, colorSecundario);;
+  }
+
+  .botonUno:active {
+    background-color: #000000;
+}
+  
+.botonDos {
+    @extend %botonDefault;
+    color: map-get($colores, colorsSecundario);
+    background-color: map-get($colores, colorDetalles);
+  }
+

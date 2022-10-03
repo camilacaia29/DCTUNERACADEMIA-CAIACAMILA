@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@200;600&family=Roboto:wght@100;500&display=swap');
-
-
-
 /* Estilos generales */
 *{
     margin: 0px;
@@ -19,10 +16,10 @@ ul{
 
 a{
     text-decoration: none;
-    color: var(--primario);
+    color: map-get($colores, colorPrimario);
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--fondo);
+    background-color: map-get($colores, colorFondo);
 }

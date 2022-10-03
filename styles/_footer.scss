@@ -1,6 +1,6 @@
 .footer{
-    background-color: var(--primario);
-    color: var(--detalles);
+    background-color: map-get($colores, colorPrimario);
+    color: map-get($colores, colorDetalles);
     padding: 30px;
 }    
 
