@@ -1,0 +1,6 @@
+Para trabajar y mejorar las caracteristicas del SEO, sume en el index y en todos los html del proyecto;
+
+-Keywords, como por ejemplo, "autos, ford, nissan, honda, audi, volkswseagen, toyota, competicion, racetec, cursos, mecanica", la implemente desde la etiqueta meta name keywords.
+
+-Descripciones distintas en cada pagina del sitio, para hacer una breve referencia a cada seccion, por ejemplo "Te presentamos nuestros cursos. Aqui podras encontrar informacion y detalles, sobre nuestros cursos digitales, presenciales y ONDEMAND vigentes." 
+Utilice en este caso la etiqueta meta name description. 
